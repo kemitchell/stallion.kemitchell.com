@@ -1,0 +1,2 @@
+#!/bin/sh
+scp $(git ls-files | grep -v 'publish') stallion.kemitchell.com:/var/www/stallion.kemitchell.com/
